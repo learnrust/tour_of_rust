@@ -10,7 +10,7 @@ serve:
 	@node generate.js wasm.json docs/webassembly beta
 	@rm wasm.json
 
-	@cd docs && python3 -m http.server 8080
+	@cd docs && python3 -m http.server 8081
 test:
 # Make production lessons
 	@rm docs/*.html 2> /dev/null || true
@@ -23,7 +23,7 @@ test:
 	@node generate.js wasm.json docs/webassembly
 	@rm wasm.json
 
-	@cd docs && python3 -m http.server 8080
+	@cd docs && python3 -m http.server 8081
 publish:
 	git branch -D gh-pages
 	git checkout -b gh-pages
