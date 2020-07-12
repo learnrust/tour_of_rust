@@ -1,3 +1,6 @@
+# yq
+# node
+# prettier
 serve:
 # Make beta lessons
 	@rm docs/*.html 2> /dev/null || true

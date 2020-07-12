@@ -70,7 +70,6 @@ common_words:
     toc: 目录
     lessons: 课程
     untranslated: 未翻译
-
   zh-tw:
     chapter: 章
     tor: Rust 語言之旅
@@ -79,9 +78,6 @@ common_words:
     toc: 目錄
     lessons: 課程
     untranslated: 未翻譯
-
-
-
   ja:
     chapter: 章
     tor: Rust ツアー
@@ -306,7 +302,7 @@ pages:
       code: https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&code=fn%20main()%20%7B%0A%20%20%20%20println!(%22%E4%BD%A0%E5%A5%BD%EF%BC%8C%F0%9F%A6%80%22)%3B%0A%7D%0A
       content_markdown: |
         歡迎來到 *Rust 語言之旅*。本教程旨在逐步介紹 Rust 編程語言的特性。Rust 通常被認爲是一門學習曲線陡峭的語言，
-        我希望能說服你，在我們開始學習複雜的部分之前，還有很多東西需要探索。
+        我希望我能說服你，在我們開始學習複雜的部分之前，還有很多東西需要探索。
 
         你可以通過以下這些語言來閱讀本教程：
 
@@ -325,7 +321,7 @@ pages:
 
         你可以使用 <span class="emoji">⬅️</span> 和 <span class="emoji">➡️</span> 瀏覽整個教程。
 
-        在這個經典的例子中，我們展示了 Rust 對 Unicode 字符串的支持。
+        在這個例子，我們展示了 Rust 對 unicode 字串的支持。
 
     ja:
       title: "こんにちは、<img src=\"/favicon-32x32.png\" style=\"display:inline; vertical-align:bottom\">"
