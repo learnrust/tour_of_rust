@@ -72,12 +72,13 @@ common_words:
     untranslated: 未翻译
   zh-tw:
     chapter: 章
-    tor: Rust 語言之旅
+    tor: Rust 程式語言導讀 
     next: 下一頁
     previous: 上一頁
     toc: 目錄
     lessons: 課程
-    untranslated: 未翻譯
+    untranslated: 待翻譯 
+
   ja:
     chapter: 章
     tor: Rust ツアー
@@ -293,7 +294,7 @@ pages:
 
         如果你对内容有任何建议，或者想参与翻译做出贡献，请查看 Rust 语言之旅的 [github 代码库](https://github.com/richardanaya/tour_of_rust)。
 
-        你可以使用 <span class="emoji">⬅️</span> 和 <span class="emoji">➡️</span> 浏览整个教程。
+        你可以使用 <span class="emoji">⬅️</span> 和 <span class="emoji">➡️</span> 浏览整个 課程。
 
         在这个经典的例子中，我们展示了 Rust 对 Unicode 字符串的支持。
 
@@ -301,10 +302,10 @@ pages:
       title: "你好，<img src=\"/favicon-32x32.png\" style=\"display:inline; vertical-align:bottom\">"
       code: https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&code=fn%20main()%20%7B%0A%20%20%20%20println!(%22%E4%BD%A0%E5%A5%BD%EF%BC%8C%F0%9F%A6%80%22)%3B%0A%7D%0A
       content_markdown: |
-        歡迎來到 *Rust 語言之旅*。本教程旨在逐步介紹 Rust 編程語言的特性。Rust 通常被認爲是一門學習曲線陡峭的語言，
+        歡迎來到 *Rust 語言之旅*。本 課程旨在逐步介紹 Rust 編程語言的特性。Rust 通常被認爲是一門學習曲線陡峭的語言，
         我希望我能說服你，在我們開始學習複雜的部分之前，還有很多東西需要探索。
 
-        你可以通過以下這些語言來閱讀本教程：
+        你可以通過以下這些語言來閱讀本 課程：
 
         * [Deutsch](00_de.html)
         * [English](00_en.html)
@@ -319,7 +320,7 @@ pages:
 
         如果你對內容有任何建議，或者想參與翻譯做出貢獻，請查看 Rust 語言之旅的 [github 代碼庫](https://github.com/richardanaya/tour_of_rust)。
 
-        你可以使用 <span class="emoji">⬅️</span> 和 <span class="emoji">➡️</span> 瀏覽整個教程。
+        你可以使用 <span class="emoji">⬅️</span> 和 <span class="emoji">➡️</span> 瀏覽整個 課程。
 
         在這個例子，我們展示了 Rust 對 unicode 字串的支持。
 
@@ -488,7 +489,7 @@ pages:
       title: Rust 練習場
       code: https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&code=fn%20main()%20%7B%0A%20%20%20%20println!(%22%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E7%BB%83%E4%B9%A0%E5%9C%BA%EF%BC%81%E4%BD%A0%E5%8F%AF%E4%BB%A5%E4%BF%AE%E6%94%B9%E8%BF%99%E5%84%BF%E7%9A%84%E4%BB%A3%E7%A0%81%E3%80%82%22)%3B%0A%7D%0A
       content_markdown: |
-        本教程使用一個來自 [Rust 練習場](https://play.rust-lang.org) 的交互代碼工具。
+        本課程使用一個來自 [Rust 練習場](https://play.rust-lang.org) 的交互代碼工具。
 
         這是一個玩轉 Rust 並且向別人展示你的創造力和挑戰性的好方法。
 
@@ -2957,9 +2958,9 @@ pages:
       code: https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&code=struct%20SeaCreature%20%7B%0A%20%20%20%20animal_type%3A%20String%2C%0A%20%20%20%20name%3A%20String%2C%0A%20%20%20%20arms%3A%20i32%2C%0A%20%20%20%20legs%3A%20i32%2C%0A%20%20%20%20weapon%3A%20String%2C%0A%7D%0A%0Afn%20main()%20%7B%0A%20%20%20%20%2F%2F%20SeaCreature%E7%9A%84%E6%95%B0%E6%8D%AE%E5%9C%A8%E6%A0%88%E4%B8%8A%0A%20%20%20%20let%20ferris%20%3D%20SeaCreature%20%7B%0A%20%20%20%20%20%20%20%20%2F%2F%20String%20%E7%BB%93%E6%9E%84%E4%BD%93%E4%B9%9F%E5%9C%A8%E6%A0%88%E4%B8%8A%EF%BC%8C%0A%20%20%20%20%20%20%20%20%2F%2F%20%E4%BD%86%E4%B9%9F%E5%AD%98%E6%94%BE%E4%BA%86%E4%B8%80%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%9C%A8%E5%A0%86%E4%B8%8A%E7%9A%84%E5%BC%95%E7%94%A8%0A%20%20%20%20%20%20%20%20animal_type%3A%20String%3A%3Afrom(%22crab%22)%2C%0A%20%20%20%20%20%20%20%20name%3A%20String%3A%3Afrom(%22Ferris%22)%2C%0A%20%20%20%20%20%20%20%20arms%3A%202%2C%0A%20%20%20%20%20%20%20%20legs%3A%204%2C%0A%20%20%20%20%20%20%20%20weapon%3A%20String%3A%3Afrom(%22claw%22)%2C%0A%20%20%20%20%7D%3B%0A%0A%20%20%20%20let%20sarah%20%3D%20SeaCreature%20%7B%0A%20%20%20%20%20%20%20%20animal_type%3A%20String%3A%3Afrom(%22octopus%22)%2C%0A%20%20%20%20%20%20%20%20name%3A%20String%3A%3Afrom(%22Sarah%22)%2C%0A%20%20%20%20%20%20%20%20arms%3A%208%2C%0A%20%20%20%20%20%20%20%20legs%3A%200%2C%0A%20%20%20%20%20%20%20%20weapon%3A%20String%3A%3Afrom(%22none%22)%2C%0A%20%20%20%20%7D%3B%0A%20%20%20%20%0A%20%20%20%20println!(%0A%20%20%20%20%20%20%20%20%22%7B%7D%20is%20a%20%7B%7D.%20They%20have%20%7B%7D%20arms%2C%20%7B%7D%20legs%2C%20and%20a%20%7B%7D%20weapon%22%2C%0A%20%20%20%20%20%20%20%20ferris.name%2C%20ferris.animal_type%2C%20ferris.arms%2C%20ferris.legs%2C%20ferris.weapon%0A%20%20%20%20)%3B%0A%20%20%20%20println!(%0A%20%20%20%20%20%20%20%20%22%7B%7D%20is%20a%20%7B%7D.%20They%20have%20%7B%7D%20arms%2C%20and%20%7B%7D%20legs.%20They%20have%20no%20weapon..%22%2C%0A%20%20%20%20%20%20%20%20sarah.name%2C%20sarah.animal_type%2C%20sarah.arms%2C%20sarah.legs%0A%20%20%20%20)%3B%0A%7D%0A
 
     zh-tw:
-      title: 在內存中創建數據
+      title: 在記憶體中創建數據
       content_markdown: |
-        當我們在代碼中 **實例化** 一個 **結構體** 時，我們的程序會在內存中並排創建關聯的字段數據。
+        當我們在代碼中 **實例化** 一個 **結構體** 時，我們的程序會在記憶體中並排創建關聯的字段數據。
 
         當我們通過制定所有字段值的方式來實例化時：
 
@@ -2967,12 +2968,12 @@ pages:
 
         結構體字段可以通過 `.` 運算符來獲取。
 
-        我們例子的內存詳情：
-        * 引號內的文本是隻讀數據（例如“ferris”），因此它位於 *數據內存區*。
+        我們例子的記憶體詳情：
+        * 引號內的文本是隻讀數據（例如“ferris”），因此它位於 *數據記憶體區*。
         * 函數調用 `String::from` 創建一個結構體 `String`，該結構體與 SeaCreature 的字段並排放置在 *棧* 中。
           字符串表示可以更改的文本通過：
-          1. 在 *堆* 上創建可修改文本的內存。
-          2. 將 *堆* 中存儲對象的內存位置的引用存儲在 `String` 結構體中(在以後的課程中會詳細介紹)。
+          1. 在 *堆* 上創建可修改文本的記憶體。
+          2. 將 *堆* 中存儲對象的記憶體位置的引用存儲在 `String` 結構體中(在以後的課程中會詳細介紹)。
         * 最後，我們的兩個朋友 *Ferris* 和 *Sarah* 有在程序中總是固定的位置的數據結構，所以它們被放在 *棧* 上。
       code: https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&code=struct%20SeaCreature%20%7B%0A%20%20%20%20animal_type%3A%20String%2C%0A%20%20%20%20name%3A%20String%2C%0A%20%20%20%20arms%3A%20i32%2C%0A%20%20%20%20legs%3A%20i32%2C%0A%20%20%20%20weapon%3A%20String%2C%0A%7D%0A%0Afn%20main()%20%7B%0A%20%20%20%20%2F%2F%20SeaCreature%E7%9A%84%E6%95%B0%E6%8D%AE%E5%9C%A8%E6%A0%88%E4%B8%8A%0A%20%20%20%20let%20ferris%20%3D%20SeaCreature%20%7B%0A%20%20%20%20%20%20%20%20%2F%2F%20String%20%E7%BB%93%E6%9E%84%E4%BD%93%E4%B9%9F%E5%9C%A8%E6%A0%88%E4%B8%8A%EF%BC%8C%0A%20%20%20%20%20%20%20%20%2F%2F%20%E4%BD%86%E4%B9%9F%E5%AD%98%E6%94%BE%E4%BA%86%E4%B8%80%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%9C%A8%E5%A0%86%E4%B8%8A%E7%9A%84%E5%BC%95%E7%94%A8%0A%20%20%20%20%20%20%20%20animal_type%3A%20String%3A%3Afrom(%22crab%22)%2C%0A%20%20%20%20%20%20%20%20name%3A%20String%3A%3Afrom(%22Ferris%22)%2C%0A%20%20%20%20%20%20%20%20arms%3A%202%2C%0A%20%20%20%20%20%20%20%20legs%3A%204%2C%0A%20%20%20%20%20%20%20%20weapon%3A%20String%3A%3Afrom(%22claw%22)%2C%0A%20%20%20%20%7D%3B%0A%0A%20%20%20%20let%20sarah%20%3D%20SeaCreature%20%7B%0A%20%20%20%20%20%20%20%20animal_type%3A%20String%3A%3Afrom(%22octopus%22)%2C%0A%20%20%20%20%20%20%20%20name%3A%20String%3A%3Afrom(%22Sarah%22)%2C%0A%20%20%20%20%20%20%20%20arms%3A%208%2C%0A%20%20%20%20%20%20%20%20legs%3A%200%2C%0A%20%20%20%20%20%20%20%20weapon%3A%20String%3A%3Afrom(%22none%22)%2C%0A%20%20%20%20%7D%3B%0A%20%20%20%20%0A%20%20%20%20println!(%0A%20%20%20%20%20%20%20%20%22%7B%7D%20is%20a%20%7B%7D.%20They%20have%20%7B%7D%20arms%2C%20%7B%7D%20legs%2C%20and%20a%20%7B%7D%20weapon%22%2C%0A%20%20%20%20%20%20%20%20ferris.name%2C%20ferris.animal_type%2C%20ferris.arms%2C%20ferris.legs%2C%20ferris.weapon%0A%20%20%20%20)%3B%0A%20%20%20%20println!(%0A%20%20%20%20%20%20%20%20%22%7B%7D%20is%20a%20%7B%7D.%20They%20have%20%7B%7D%20arms%2C%20and%20%7B%7D%20legs.%20They%20have%20no%20weapon..%22%2C%0A%20%20%20%20%20%20%20%20sarah.name%2C%20sarah.animal_type%2C%20sarah.arms%2C%20sarah.legs%0A%20%20%20%20)%3B%0A%7D%0A
   - en:
@@ -4456,7 +4457,7 @@ pages:
 
         `Vec` 有一個函數 `iter()` 可以從一個 vector 創建一個迭代器，這允許我們輕鬆的將一個 vector 放到一個 `for` 循環中。
 
-        內存細節：
+        記憶體細節：
         * `Vec` 是一個結構體，但是內部其實保存了在堆上固定長度數據的引用。
         * 一個 vector 開始有默認大小容量，當更多的元素被添加進來後，它會重新在堆上分配一個新的有更大大小的固定容量。（類似 C++ 的vector）
       code: https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&code=fn%20main()%20%7B%0A%20%20%20%20%2F%2F%20%E6%88%91%E4%BB%AC%E5%8F%AF%E4%BB%A5%E6%98%BE%E5%BC%8F%E7%A1%AE%E5%AE%9A%E7%B1%BB%E5%9E%8B%0A%20%20%20%20let%20mut%20i32_vec%20%3D%20Vec%3A%3A%3Ci32%3E%3A%3Anew()%3B%20%2F%2F%20turbofish%20%3C3%0A%20%20%20%20i32_vec.push(1)%3B%0A%20%20%20%20i32_vec.push(2)%3B%0A%20%20%20%20i32_vec.push(3)%3B%0A%0A%20%20%20%20%2F%2F%20%E4%BD%86%E6%98%AF%E7%9C%8B%E7%9C%8B%20Rust%20%E6%98%AF%E5%A4%9A%E4%B9%88%E8%81%AA%E6%98%8E%E7%9A%84%E8%87%AA%E5%8A%A8%E6%A3%80%E6%B5%8B%E7%B1%BB%E5%9E%8B%E5%95%8A%0A%20%20%20%20let%20mut%20float_vec%20%3D%20Vec%3A%3Anew()%3B%0A%20%20%20%20float_vec.push(1.3)%3B%0A%20%20%20%20float_vec.push(2.3)%3B%0A%20%20%20%20float_vec.push(3.4)%3B%0A%0A%20%20%20%20%2F%2F%20%E8%BF%99%E4%B8%AA%E4%B8%AA%E6%BC%82%E4%BA%AE%E7%9A%84%E5%AE%8F%EF%BC%81%0A%20%20%20%20let%20string_vec%20%3D%20vec!%5BString%3A%3Afrom(%22Hello%22)%2C%20String%3A%3Afrom(%22World%22)%5D%3B%0A%0A%20%20%20%20for%20word%20in%20string_vec.iter()%20%7B%0A%20%20%20%20%20%20%20%20println!(%22%7B%7D%22%2C%20word)%3B%0A%20%20%20%20%7D%0A%7D%0A
